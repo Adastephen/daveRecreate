@@ -10,7 +10,7 @@ function Hero1() {
         <div className="flex justify-between gap-8 py-10">
           {/* div af the first side of the second hero  */}
           <div className="flex flex-col w-1/2 justify-start gap-7">
-            <h2 className="text-i ndigo-700 font-bold text-xl">
+            <h2 className="text-i ndigo-700 font-bold text-3xl">
               DOMINION SYSTEMS RESOLVES 3 KEY PROBLEMS FOR BUSINESSES
             </h2>
             <p className="text-indigo-700">
@@ -26,7 +26,7 @@ function Hero1() {
           {/* the first list on the second hero */}
           <div className="w-1/2 justify-end flex flex-col gap-5">
             <div className="flex gap-5">
-              <div className="text-xl font-bold text-indigo-700 border items-center">
+              <div className="text-4xl font-bold text-indigo-700 border items-center pt-4">
                 <h1 className="">1</h1>
               </div>
               <div className="flex flex-col gap-2">
@@ -42,7 +42,7 @@ function Hero1() {
 
             {/* the second the list services */}
             <div className="flex gap-5">
-              <div className="text-xl font-bold text-indigo-700 border items-center">
+              <div className="text-4xl font-bold text-indigo-700 border items-center pt-4">
                 <h1 className="">2</h1>
               </div>
               <div className="flex flex-col gap-2">
@@ -57,7 +57,7 @@ function Hero1() {
             </div>
             {/* the third services  */}
             <div className="flex gap-5">
-              <div className="text-xl font-bold text-indigo-700 border items-center">
+              <div className="text-4xl font-bold text-indigo-700 border items-center pt-4">
                 <h1 className="">3</h1>
               </div>
               <div className="flex flex-col gap-2">
@@ -76,7 +76,8 @@ function Hero1() {
         <p className="flex justify-center text-sm text-indigo-700">Custom IT services and solutions built specifically for your business</p>
         <Cards/>
       </div>
-      <p>hello world</p>
+      <p x
+      className="flex justify-center m-9 bg-yellow-400 font-bold ">Copyright by stephen</p>
     </div>
   );
 }

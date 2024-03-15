@@ -6,7 +6,7 @@ function Card({ title, text, action, icon1, icon2 }) {
     // the cards
     <div className="bg-indigo-950 flex justify-between">
       <div className="flex flex-col justify-center items-center m-3 w-full gap-3 ">
-        <h3 className="text-white font-semibold">{title}</h3>
+        <h3 className="text-white font-semibold ">{title}</h3>
         <p className="text-indigo-400 text-xs">{text}</p>
         <img
           src="../../../src/assets/icon/contactus.svg"
@@ -14,11 +14,11 @@ function Card({ title, text, action, icon1, icon2 }) {
           className="w-14 h-14"
         />
         <div className="text-green-400 flex text-xs whitespace-nowrap gap-1">
-          <p>{action}</p>
+          <p className="">{action}</p>
           <img
             src="../../../src/assets/icon/contactus.svg"
             alt="arrowlosgo"
-            className="w-5 h-5 te"
+            className="w-5 h-5"
           />
         </div>
       </div>
