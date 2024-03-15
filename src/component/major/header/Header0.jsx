@@ -3,34 +3,34 @@ import { React } from "react";
 function Header0() {
   return (
     <>
-      <div className="w-full bg-blue-900">
-        <div className="w-10/12 m-auto">
-          <div className="flex justify-between py-5">
+      <div className="w-full bg-indigo-950">
+        <div className="w-11/12 m-auto">
+          <div className="flex justify-between py-3">
             {/* the 'contact us' and the 'have a question' in the header1 div */}
-            <div className="text-gray-300 flex lg:flex-row  whitespace-nowrap">
+            <div className="text-gray-300 flex m-3 lg:flex-row md:flex-col whitespace-nowrap">
               {/* contact us div */}
-              <div className="flex m-3 ">
+              <div className="flex mt-3 ">
                 <img
                   src="../../../src/assets/icon/contact.svg"
-                  className="h-12 w-12 mr-3"
+                  className="h-8 w-8 mr-3"
                   alt="contact us"
                 />
-                <span>
+                <span className="text-sm text-gray-400">
                   <p>Contact us</p>
-                  <p>+1(214) 869-5511</p>
+                  <p className="text-lg ">+1(214) 869-5511</p>
                 </span>
               </div>
 
               {/* have a question div sec */}
-              <div className="flex m-3">
+              <div className="flex ">
                 <img
                   src="../../../src/assets/icon/profile.svg"
-                  className="h-12 w-12 mr-3"
+                  className="h-8 w-8 mr-3"
                   alt="profile logo"
                 />
-                <span>
+                <span className="text-sm text-gray-400">
                   <p>Have a question?</p>
-                  <p>support@dominionsystems.net</p>
+                  <p className="text-lg">support@dominionsystems.net</p>
                 </span>
               </div>
             </div>
@@ -40,35 +40,35 @@ function Header0() {
               <button>
                 <img
                   src="../../../src/assets/icon/career.svg"
-                  alt="career logo" className="h-12 w-12 mr-3"
+                  alt="career logo" className="h-8 w-8 mr-3"
                 />
-                <p>Career</p>
+                <p className= "text-sm text-gray-400">Career</p>
               </button>
               <button>
               <img
                   src="../../../src/assets/icon/faq.svg"
-                  alt="faq logo" className="h-12 w-12 mr-3"
+                  alt="faq logo" className="h-8 w-8 mr-3"
                 />
-                <p>FAQ</p>
+                <p className= "text-sm text-gray-400">FAQ</p>
               </button>
               <button>                              
                 <img
                   src="../../../src/assets/icon/priceing.svg"
-                  alt="price logo" className="h-12 w-12 mr-3"
+                  alt="price logo" className="h-8 w-8 mr-3"
                 />
-                <p>Pricing</p></button>
+                <p className= "text-sm text-gray-400">Pricing</p></button>
               <button>                
                 <img
                   src="../../../src/assets/icon/itblog.svg"
-                  alt="itblog logo" className="h-12 w-12 mr-3"
+                  alt="itblog logo" className="h-8 w-8 mr-3"
                 />
-                <p>IT Blog</p></button>
+                <p className= "text-sm text-gray-400">IT Blog</p></button>
                 <button>               
                  <img
                   src="../../../src/assets/icon/contactus.svg"
-                  alt="contactus logo" className="h-12 w-12"
+                  alt="contactus logo" className="h-8 w-8"
                 />
-                <p>Contact Us</p></button>
+                <p className= "text-sm text-gray-400">Contact Us</p></button>
             </div>
           </div>
         </div>

@@ -6,16 +6,16 @@ function Header1() {
       <div className="w-10/12 m-auto flex justify-between py-3">
         <div>
           {/* the now hiring */}
-          <h5 className="text-blue-700 gap-2 flex items-center text-sm font-semibold">
+          <h5 className="text-indigo-950 flex text-sm font-semibold">
 
-            <div className="">
+            <div className=" border">
                 Now Hiring:<span className="font-semibold"> IT Support Engineer</span>
             </div>
            
           </h5>
         </div>
         {/* the dominion system logo */}
-        <div className="justify-center">
+        <div className="justify-center border">
             <img src="../../../src/assets/icon/logoo.jpg" alt="" className="w-36 h-12"/>
         </div>
         {/* toggle */}
