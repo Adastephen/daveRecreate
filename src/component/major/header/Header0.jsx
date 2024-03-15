@@ -11,7 +11,7 @@ function Header0() {
               {/* contact us div */}
               <div className="flex mt-3 ">
                 <img
-                  src="../../../src/assets/icon/contact.svg"
+                  src="../../../public/icon/contact.svg"
                   className="h-8 w-8 mr-3"
                   alt="contact us"
                 />
@@ -24,7 +24,7 @@ function Header0() {
               {/* have a question div sec */}
               <div className="flex ">
                 <img
-                  src="../../../src/assets/icon/profile.svg"
+                  src="../../../public/icon/profile.svg"
                   className="h-8 w-8 mr-3"
                   alt="profile logo"
                 />
@@ -39,36 +39,44 @@ function Header0() {
             <div className="text-gray-300 flex flex-wrap gap-5">
               <button>
                 <img
-                  src="../../../src/assets/icon/career.svg"
-                  alt="career logo" className="h-8 w-8 mr-3"
+                  src="../../../public/icon/career.svg"
+                  alt="career logo"
+                  className="h-8 w-8 mr-3"
                 />
-                <p className= "text-sm text-gray-400">Career</p>
+                <p className="text-sm text-gray-400">Career</p>
               </button>
               <button>
-              <img
-                  src="../../../src/assets/icon/faq.svg"
-                  alt="faq logo" className="h-8 w-8 mr-3"
+                <img
+                  src="../../../public/icon/faq.svg"
+                  alt="faq logo"
+                  className="h-8 w-8 mr-3"
                 />
-                <p className= "text-sm text-gray-400">FAQ</p>
+                <p className="text-sm text-gray-400">FAQ</p>
               </button>
-              <button>                              
+              <button>
                 <img
-                  src="../../../src/assets/icon/priceing.svg"
-                  alt="price logo" className="h-8 w-8 mr-3"
+                  src="../../../public/icon/priceing.svg"
+                  alt="price logo"
+                  className="h-8 w-8 mr-3"
                 />
-                <p className= "text-sm text-gray-400">Pricing</p></button>
-              <button>                
+                <p className="text-sm text-gray-400">Pricing</p>
+              </button>
+              <button>
                 <img
-                  src="../../../src/assets/icon/itblog.svg"
-                  alt="itblog logo" className="h-8 w-8 mr-3"
+                  src="../../../public/icon/itblog.svg"
+                  alt="itblog logo"
+                  className="h-8 w-8 mr-3"
                 />
-                <p className= "text-sm text-gray-400">IT Blog</p></button>
-                <button>               
-                 <img
-                  src="../../../src/assets/icon/contactus.svg"
-                  alt="contactus logo" className="h-8 w-8"
+                <p className="text-sm text-gray-400">IT Blog</p>
+              </button>
+              <button>
+                <img
+                  src="../../../public/icon/contactus.svg"
+                  alt="contactus logo"
+                  className="h-8 w-8"
                 />
-                <p className= "text-sm text-gray-400">Contact Us</p></button>
+                <p className="text-sm text-gray-400">Contact Us</p>
+              </button>
             </div>
           </div>
         </div>
