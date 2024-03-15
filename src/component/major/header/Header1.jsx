@@ -16,11 +16,11 @@ function Header1() {
         </div>
         {/* the dominion system logo */}
         <div className="w-1/3">
-            <img src="../../..//icon/logoo.jpg" alt="" className="w-36 h-12"/>
+            <img src="icon/logoo.jpg" alt="" className="w-36 h-12"/>
         </div>
         {/* toggle */}
         <div className="">
-            <img src="/icon/bar.svg" alt="" className="w-8 h-8" />
+            <img src="icon/bar.svg" alt="" className="w-8 h-8" />
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ function Header0() {
               {/* contact us div */}
               <div className="flex mt-3 ">
                 <img
-                  src="../../../public/icon/contact.svg"
+                  src="icon/contact.svg"
                   className="h-8 w-8 mr-3"
                   alt="contact us"
                 />
@@ -24,7 +24,7 @@ function Header0() {
               {/* have a question div sec */}
               <div className="flex ">
                 <img
-                  src="../../../public/icon/profile.svg"
+                  src="icon/profile.svg"
                   className="h-8 w-8 mr-3"
                   alt="profile logo"
                 />
@@ -39,7 +39,7 @@ function Header0() {
             <div className="text-gray-300 flex flex-wrap gap-5">
               <button>
                 <img
-                  src="../../../public/icon/career.svg"
+                  src="icon/career.svg"
                   alt="career logo"
                   className="h-8 w-8 mr-3"
                 />
@@ -47,7 +47,7 @@ function Header0() {
               </button>
               <button>
                 <img
-                  src="../../../public/icon/faq.svg"
+                  src="icon/faq.svg"
                   alt="faq logo"
                   className="h-8 w-8 mr-3"
                 />
@@ -55,7 +55,7 @@ function Header0() {
               </button>
               <button>
                 <img
-                  src="../../../public/icon/priceing.svg"
+                  src="icon/priceing.svg"
                   alt="price logo"
                   className="h-8 w-8 mr-3"
                 />
@@ -63,7 +63,7 @@ function Header0() {
               </button>
               <button>
                 <img
-                  src="../../../public/icon/itblog.svg"
+                  src="icon/itblog.svg"
                   alt="itblog logo"
                   className="h-8 w-8 mr-3"
                 />
@@ -71,7 +71,7 @@ function Header0() {
               </button>
               <button>
                 <img
-                  src="../../../public/icon/contactus.svg"
+                  src="icon/contactus.svg"
                   alt="contactus logo"
                   className="h-8 w-8"
                 />

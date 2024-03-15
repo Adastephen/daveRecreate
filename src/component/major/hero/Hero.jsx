@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <>
-      <div className="bg-[url('../../../public/icon/bglogo.jpg')] h-4/6 bg-cover">
+      <div className="bg-[url('icon/bglogo.jpg')] h-4/6 bg-cover">
         <div className="w-11/12 flex m-auto h-full ">
           <div className="text-white w-full flex justify-end items-center">
             <div className="w-1/2">
